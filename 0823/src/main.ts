@@ -82,7 +82,7 @@
 //     MASTER, //8
 // }
 
-//문자열 할당. 할당한 뒤로는 다 할당해줘야 함
+// 문자열 할당. 할당한 뒤로는 다 할당해줘야 함
 // enum Level {
 //     NOVICE,
 //     INTERMEDIATE = 'hello',
@@ -227,7 +227,8 @@
 //     }
 // }
 
-
+// const person1 : Person = new Person('zero', 28, false);
+// const person2 : typeof Person = Person;
 //실습 12
 // class Parent{
 //     name? : string;
@@ -454,7 +455,7 @@
 
 
 //실습 18
-//Partial : 특정 타입의 부분 집합을 만족하는 타입을 정의할 수 있음
+// Partial : 특정 타입의 부분 집합을 만족하는 타입을 정의할 수 있음
 // interface Address {
 //     email : string;
 //     address : string;
