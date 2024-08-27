@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "ESNext", //최신 ECMAScript 컴파일
+      "module": "CommonJS", // CommonJS 모듈 사용
+      "strict": true, //엄격한 타입 검사 활성화
+      "esModuleInterop": true, //// CommonJS와 ES 모듈 간의 호환성을 활성화
+      "outDir": "./dist", /// 컴파일된 파일들이 저장될 디렉토리를 지정
+      "strictNullChecks": true, // null과 undefined 값 엄격한 타입 검사
+      "lib" : ["es5", "dom"]
+    },
+    "include": ["src"], // 컴파일할 파일들이 위치한 디렉토리를 지정
+    "exclude": ["node_modules"] // 컴파일에서 제외할 디렉토리를 지정
+  }
+  
